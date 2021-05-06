@@ -1,4 +1,4 @@
-package br.dev.mhc.ExtrairTextoImagem.resource;
+package br.dev.mhc.ExtrairTextoArquivo.resource;
 
 import java.io.IOException;
 import java.util.UUID;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import br.dev.mhc.ExtrairTextoImagem.service.TesseractService;
-import br.dev.mhc.ExtrairTextoImagem.util.Util;
+import br.dev.mhc.ExtrairTextoArquivo.service.TesseractService;
+import br.dev.mhc.ExtrairTextoArquivo.util.Util;
 
 @RestController
 @RequestMapping(value = "/files")

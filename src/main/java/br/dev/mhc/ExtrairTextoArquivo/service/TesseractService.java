@@ -1,4 +1,4 @@
-package br.dev.mhc.ExtrairTextoImagem.service;
+package br.dev.mhc.ExtrairTextoArquivo.service;
 
 import java.io.File;
 

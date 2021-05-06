@@ -1,4 +1,4 @@
-package br.dev.mhc.ExtrairTextoImagem.util;
+package br.dev.mhc.ExtrairTextoArquivo.util;
 
 import java.io.File;
 import java.io.IOException;
