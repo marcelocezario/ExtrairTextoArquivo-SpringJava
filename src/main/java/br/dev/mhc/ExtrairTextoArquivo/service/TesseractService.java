@@ -14,10 +14,12 @@ public class TesseractService {
 		Tesseract tesseract = new Tesseract();
 		String texto = "";
 		try {
-			tesseract.setDatapath("src\\main\\resources\\Tess4J\\tessdata");
+			tesseract.setDatapath("src\\main\\resources\\tessdata");
+			tesseract.setLanguage("por");
 			texto = tesseract.doOCR(file);
 		} catch (TesseractException e) {
 			e.printStackTrace();
+			texto = "Não foi possível fazer a leitura do arquivo";
 		}
 		return texto;
 	}
